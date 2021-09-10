@@ -1,0 +1,58 @@
+# Ros 1 Desktop Full Rosinstall File
+# Date: 2020/09/11
+# Author: Edward Yin
+# ROS Version: ROS 1 Melodic
+# Version: 0.1
+
+- tar:
+    local-name: ros_control/combined_robot_hw
+    uri: https://github.com/ros-gbp/ros_control-release/archive/release/melodic/combined_robot_hw/0.18.4-1.tar.gz
+    version: ros_control-release-release-melodic-combined_robot_hw-0.18.4-1
+- tar:
+    local-name: ros_control/rqt_controller_manager
+    uri: https://github.com/ros-gbp/ros_control-release/archive/release/melodic/rqt_controller_manager/0.18.4-1.tar.gz
+    version: ros_control-release-release-melodic-rqt_controller_manager-0.18.4-1
+- git:
+    local-name: rosparam_shortcuts
+    uri: https://github.com/PickNikRobotics/rosparam_shortcuts
+    version: melodic-devel
+- git:
+    local-name: eigenpy
+    uri: https://github.com/stack-of-tasks/eigenpy
+    version: master
+- tar:
+    local-name: ompl
+    uri: https://github.com/ompl/ompl/archive/refs/tags/1.5.2.tar.gz
+    version: ompl-1.5.2
+- git:
+    local-name: warehouse_ros
+    uri: https://github.com/ros-planning/warehouse_ros
+    version: kinetic-devel
+- tar:
+    local-name: pybind11_catkin
+    uri: https://github.com/ipab-slmc/pybind11_catkin/archive/refs/tags/2.5.0.tar.gz
+    version: pybind11_catkin-2.5.0
+- git:
+    local-name: srdfdom
+    uri: https://github.com/ros-planning/srdfdom
+    version: melodic-devel
+- git:
+    local-name: octomap_msgs
+    uri: https://github.com/OctoMap/octomap_msgs
+    version: melodic-devel
+- git:
+    local-name: object_recognition_msgs
+    uri: https://github.com/wg-perception/object_recognition_msgs
+    version: noetic-devel
+- git:
+    local-name: random_numbers
+    uri: https://github.com/ros-planning/random_numbers
+    version: master
+- tar:
+    local-name: graph_msgs
+    uri: https://github.com/PickNikRobotics/graph_msgs-release/archive/refs/tags/release/melodic/graph_msgs/0.1.0-1.tar.gz
+    version: graph_msgs-release-release-melodic-graph_msgs-0.1.0-1
+- tar:
+    local-name: eigen_stl_containers
+    uri: https://github.com/ros-gbp/eigen_stl_containers-release/archive/release/melodic/eigen_stl_containers.tar.gz
+    version: eigen_stl_containers-release-release-melodic-eigen_stl_containers
