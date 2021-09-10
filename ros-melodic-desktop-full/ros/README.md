@@ -1,6 +1,17 @@
-# ROS 1 Melodic
+# ROS 1 Melodic Package Patch
 
-Patch of the ROS 1 Melodic
+Prerequirements: `wstool`
+
+Patch Apply to: `melodic-desktop-full.rosinstall`
+
+install package
+
+
+    mv melodic-desktop-full.rosinstall .rosinstall
+    wstool merge https://raw.githubusercontent.com/ecare-intelligent/ros-environment-configs/master/ros-melodic-desktop-full/ros/melodic-desktop-full.patch.rosinstall
+    mv .rosinstall melodic-desktop-full.rosinstall
+
+Package will be add
 
 Id | pakcage name | Repo Link | depends by
 --- | --- | ---| ---
