@@ -4,7 +4,7 @@ Prerequirements: `wstool`
 
 Patch Apply to: `melodic-desktop-full.rosinstall`
 
-install package
+Install package
 
 
     mv melodic-desktop-full.rosinstall .rosinstall
