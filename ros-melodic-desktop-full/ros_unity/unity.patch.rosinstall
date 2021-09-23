@@ -1,0 +1,10 @@
+# Ros 1 Desktop Full Rosinstall File
+# Date: 2020/09/22
+# Author: Edward Yin
+# ROS Version: ROS 1 Melodic
+# Version: 0.1
+
+- git:
+    local-name: rosbridge_suite
+    uri: https://github.com/RobotWebTools/rosbridge_suite
+    version: ros1

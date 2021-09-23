@@ -1,0 +1,1 @@
+wstool merge -t src https://raw.githubusercontent.com/ecare-intelligent/ros-environment-configs/master/ros-melodic-desktop-full/ros_unity/ros_unity.patch.rosinstall
