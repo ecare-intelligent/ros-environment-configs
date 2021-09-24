@@ -8,3 +8,7 @@
     local-name: rosbridge_suite
     uri: https://github.com/RobotWebTools/rosbridge_suite
     version: ros1
+- git:
+    local-name: ros_controllers
+    uri: https://github.com/ros-controls/ros_controllers
+    version: melodic-devel

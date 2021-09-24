@@ -13,3 +13,4 @@ Package will be add
 Id | pakcage name | Repo Link | depends by
 --- | --- | ---| ---
 1 | rosbridge_suite | https://github.com/RobotWebTools/rosbridge_suite |
+2 | ros_controllers | https://github.com/ros-controls/ros_controllers |
