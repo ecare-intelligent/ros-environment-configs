@@ -10,7 +10,8 @@ Install package
 
 Package will be add
 
-Id | pakcage name | Repo Link | depends by
+Id | pakcage name | Repo Link | depends on
 --- | --- | ---| ---
-1 | rosbridge_suite | https://github.com/RobotWebTools/rosbridge_suite |
-2 | ros_controllers | https://github.com/ros-controls/ros_controllers |
+1 | ros_controllers | https://github.com/ros-controls/ros_controllers | four_wheel_steering_msgs
+2 | four_wheel_steering_msgs | https://github.com/ros-drivers/four_wheel_steering_msgs | urdf_geometry_parser
+3 | urdf_geometry_parser | https://github.com/ros-controls/urdf_geometry_parser | 

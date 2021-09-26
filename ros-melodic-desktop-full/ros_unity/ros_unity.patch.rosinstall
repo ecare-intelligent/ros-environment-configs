@@ -4,11 +4,19 @@
 # ROS Version: ROS 1 Melodic
 # Version: 0.1
 
-- git:
-    local-name: rosbridge_suite
-    uri: https://github.com/RobotWebTools/rosbridge_suite
-    version: ros1
+#- git:
+#    local-name: rosbridge_suite
+#    uri: https://github.com/RobotWebTools/rosbridge_suite
+#    version: ros1
 - git:
     local-name: ros_controllers
     uri: https://github.com/ros-controls/ros_controllers
     version: melodic-devel
+- git:
+    local-name: four_wheel_steering_msgs
+    uri: https://github.com/ros-drivers/four_wheel_steering_msgs
+    version: master
+- git:
+    local-name: urdf_geometry_parser
+    uri: https://github.com/ros-controls/urdf_geometry_parser
+    version: kinetic-devel

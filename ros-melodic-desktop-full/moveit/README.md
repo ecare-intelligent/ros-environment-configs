@@ -11,7 +11,7 @@ Install package
 
 Package will be add
 
-Id | pakcage name | Repo Link | depends by
+Id | pakcage name | Repo Link | depends on
 --- | --- | ---| ---
 1 | franka_ros/franka_description | https://github.com/frankaemika/franka_ros | 
 
